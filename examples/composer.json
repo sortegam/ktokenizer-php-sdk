@@ -1,0 +1,29 @@
+{
+  "name": "ktokenizer/php-sdk/examples",
+  "description": "Examples KTokenizer API client for PHP",
+  "keywords": [
+    "ktokenizer",
+    "examples"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "@sortegam",
+      "homepage": "https://github.com/sortegam/ktokenizer-php-sdk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "KTokenizer\\": [
+        "../src"
+      ]
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "~6.3",
+    "php": ">= 5.4"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "~2.0"
+  }
+}
